@@ -18,14 +18,13 @@
       "error",
       {
         "ignoreCase": false,
-        "ignoreDeclarationSort": true, // don"t want to sort import lines, use eslint-plugin-import instead
+        "ignoreDeclarationSort": true,
         "ignoreMemberSort": false,
         "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
         "allowSeparatedGroups": true
       }
     ],
     "import/no-unresolved": "error",
-    // 'import/no-named-as-default-member': 'off',
     "import/order": [
       "error",
       {
